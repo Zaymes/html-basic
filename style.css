@@ -1,0 +1,21 @@
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    padding: 2px;
+}
+
+div, form, table{
+    margin: 30px;
+}
+
+table{
+    font: 200;
+}
+
+form{
+    margin:30px;
+}
