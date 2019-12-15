@@ -1,21 +1,62 @@
-ul{
-    float: right;
-    list-style-type: none;
+
+
+nav{
+    width: 80%;
+    height: 30px;
+    padding: 1% 2%;
+    background-color: #39180F;
 }
 
-li{
+.container{
+    width: 100%;
+    margin: 5px;
+}
+
+.about{
+    background-color: #86AA84;
+    width: 84%;
+    overflow: auto;
+    
+}
+.about img{
     float: left;
-    padding: 2px;
+    padding-left: 7%;
+    padding-top: 2%;
+}
+.about-text{
+    float: left;
+    color: #fff;
+    padding: 3%;
+    width: 64%;
+    background-color: #86AA84;
+}
+.about-text h1,p{
+    padding-right: 8%;
 }
 
-div, form, table{
-    margin: 30px;
+.main{
+    position: relative;
+
 }
 
-table{
-    font: 200;
+.sidebar{
+    margin-top: 1%;
+    float: left;
+    width: 14%;
+    padding: 3% 2%;
+    height: 500px;
+    background-color: #96AFAC;
 }
 
-form{
-    margin:30px;
+.main-body{
+    margin-top: 1%;
+    float: left;
+    width: 60%;
+    height: 500px;
+    padding: 3%;
+    background-color: #DBD8C5;
+}
+
+.clear{
+    clear: both;
 }
