@@ -46,6 +46,7 @@ nav{
     padding: 3% 2%;
     height: 500px;
     background-color: #96AFAC;
+    overflow: auto;
 }
 
 .main-body{
@@ -54,6 +55,7 @@ nav{
     width: 60%;
     height: 500px;
     padding: 3%;
+    overflow: auto;
     background-color: #DBD8C5;
 }
 
