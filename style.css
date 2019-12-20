@@ -62,3 +62,15 @@ nav{
 .clear{
     clear: both;
 }
+
+@media(max-width: 768px){
+    .main-body{
+        float: none;
+        width: 78%;
+        height: auto;
+    }
+    .sidebar{
+        float: none;
+        width: 80%;
+        height: auto;
+    }
